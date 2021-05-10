@@ -1,6 +1,6 @@
 # Created with sailboat, the Python releaser
 
-# v0.0.1+b081a16.1
+# v0.0.2-rc1
 
 class Pushing_Outshoot_Unfold < Formula
   include Language::Python::Virtualenv
