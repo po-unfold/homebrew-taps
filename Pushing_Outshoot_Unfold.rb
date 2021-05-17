@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v0.0.8
+# v0.1.0
 
 class Pushing_Outshoot_Unfold < Formula
   include Language::Python::Virtualenv
 
   desc "A game about a teen getting through quarantine in Covid."
   homepage "https://github.com/po-unfold"
-  url "https://files.pythonhosted.org/packages/19/97/a172a015c31e27c336aeaa330853d2746d5706feac7f3cef273f8c52087d/pushing_outshoot_unfold-0.0.8.tar.gz" # These lines must be configured during release, not build.
-  sha256 "82535034cc7807c2fdc31223ee4c26abe908fe7595b797183d083b5f692a6fea" # ^^^
+  url "https://files.pythonhosted.org/packages/1a/06/5e887bbd05f1f7aae22c5b31320a3ca80411499e929b94b61d1c63f73cee/pushing_outshoot_unfold-0.1.0.tar.gz" # These lines must be configured during release, not build.
+  sha256 "dd2e48bcab0997479e375fd13aaeddbf237d984d57bb0fb171edac7fe4b874d2" # ^^^
   license "none"
 
   livecheck do
@@ -24,6 +24,14 @@ class Pushing_Outshoot_Unfold < Formula
    resource "toml" do
       url "https://files.pythonhosted.org/packages/be/ba/1f744cdc819428fc6b5084ec34d9b30660f6f9daaf70eead706e3203ec3c/toml-0.10.2.tar.gz"
       sha256 "b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
+   end
+   resource "simpleaudio" do
+      url "https://files.pythonhosted.org/packages/19/20/7412b00dfb49db47b15aa92044d49e40174c78076077e3b2cc1dbcf0c53d/simpleaudio-1.0.4-cp37-cp37m-win32.whl"
+      sha256 "f1a4fe3358429b2ea3181fd782e4c4fff5c123ca86ec7fc29e01ee9acd8a227a"
+   end
+   resource "replit" do
+      url "https://files.pythonhosted.org/packages/d5/38/25302e99658cfab0ec97eead856f27153d14d896f19dfa0eb972976908fc/replit-3.0.0.tar.gz"
+      sha256 "7558e5ce46333062849b2c3be058a90d7769f6d7b1ad2382e78981cfaede2aa1"
    end
 
 
