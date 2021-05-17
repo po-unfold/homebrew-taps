@@ -1,6 +1,6 @@
 # Created with sailboat, the Python releaser
 
-# v0.1.0
+# v0.1.1
 
 class Pushing_Outshoot_Unfold < Formula
   include Language::Python::Virtualenv
@@ -24,10 +24,6 @@ class Pushing_Outshoot_Unfold < Formula
    resource "toml" do
       url "https://files.pythonhosted.org/packages/be/ba/1f744cdc819428fc6b5084ec34d9b30660f6f9daaf70eead706e3203ec3c/toml-0.10.2.tar.gz"
       sha256 "b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
-   end
-   resource "simpleaudio" do
-      url "https://files.pythonhosted.org/packages/19/20/7412b00dfb49db47b15aa92044d49e40174c78076077e3b2cc1dbcf0c53d/simpleaudio-1.0.4-cp37-cp37m-win32.whl"
-      sha256 "f1a4fe3358429b2ea3181fd782e4c4fff5c123ca86ec7fc29e01ee9acd8a227a"
    end
    resource "replit" do
       url "https://files.pythonhosted.org/packages/d5/38/25302e99658cfab0ec97eead856f27153d14d896f19dfa0eb972976908fc/replit-3.0.0.tar.gz"
