@@ -1,6 +1,6 @@
 # Created with sailboat, the Python releaser
 
-# v0.2.3
+# v0.2.3-dev1
 
 class Pushing_Outshoot_Unfold < Formula
   include Language::Python::Virtualenv
@@ -26,8 +26,8 @@ class Pushing_Outshoot_Unfold < Formula
       sha256 "b3bda1d108d5dd99f4a20d24d9c348e91c4db7ab1b749200bded2f839ccbe68f"
    end
    resource "replit" do
-      url "https://files.pythonhosted.org/packages/d5/38/25302e99658cfab0ec97eead856f27153d14d896f19dfa0eb972976908fc/replit-3.0.0.tar.gz"
-      sha256 "7558e5ce46333062849b2c3be058a90d7769f6d7b1ad2382e78981cfaede2aa1"
+      url "https://files.pythonhosted.org/packages/b9/09/3d928139612e20a4d5661379d0f359b8b69f4a39fe9beb5e1df7e7c30652/replit-3.1.0.tar.gz"
+      sha256 "fcea2df361a195ab6a6739ddba429227f36944075f8852e35f77a4031d263ab0"
    end
 
 
