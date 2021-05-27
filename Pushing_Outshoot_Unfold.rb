@@ -1,14 +1,14 @@
 # Created with sailboat, the Python releaser
 
-# v1.0.0
+# v1.0.1
 
 class Pushing_Outshoot_Unfold < Formula
   include Language::Python::Virtualenv
 
   desc "A game about a teen getting through quarantine in Covid."
   homepage "https://github.com/po-unfold"
-  url "https://files.pythonhosted.org/packages/32/82/b890005a37a1692fa19f6c62f3abb18f7f7878dbede26f3907530c6924f8/pushing_outshoot_unfold-1.0.0.tar.gz" # These lines must be configured during release, not build.
-  sha256 "c33d83f9241eaa2928fae89fb1754acabf168170b043606af3ba319c18f41c71" # ^^^
+  url "https://files.pythonhosted.org/packages/32/66/3aa2a7dd152073dbba220295350b4b1a6a2b548f839c6dd25ddac2af32c6/pushing_outshoot_unfold-1.0.1.tar.gz" # These lines must be configured during release, not build.
+  sha256 "5705c63df6bb5254ce3e94b6ee1eb06d72939dcebb880c446ee9ed211365dea9" # ^^^
   license "none"
 
   livecheck do
